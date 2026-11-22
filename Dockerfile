@@ -1,4 +1,4 @@
-FROM nousresearch/hermes-agent:v0.23.1
+FROM nousresearch/hermes-agent:v0.23.3
 
 COPY --chmod=0755 docker-entrypoint.sh /usr/local/bin/hermes-railway-entrypoint
 
